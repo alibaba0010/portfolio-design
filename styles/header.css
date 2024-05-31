@@ -1,5 +1,5 @@
 * {
-   padding: 2px;
+   padding: 0px;
    margin: 0;
    box-sizing: border-box;
  }
@@ -9,7 +9,12 @@
    background-color: beige;
    font-family: curvy;
  }
-
+.header{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   background-color: rgb(106, 106, 204);
+}
  .about{
    display: flex;
    flex-direction: column;
