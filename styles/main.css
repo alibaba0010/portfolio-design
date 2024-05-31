@@ -9,3 +9,11 @@ body {
   background-color: beige;
   font-family: curvy;
 }
+.main {
+  display: flex;
+  flex-flow: column wrap;
+}
+.project-image {
+  background-color: rgb(168, 123, 47);
+  width: 60px;
+}
