@@ -9,11 +9,44 @@ body {
   background-color: beige;
   font-family: curvy;
 }
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+.my-work{
+  margin-left: 40px;
+}
 .main {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 .project-image {
-  background-color: rgb(168, 123, 47);
-  width: 60px;
+  display: flex;
+  background-color: goldenrod;
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+}
+.project-image p {
+  display: flex;
+  text-align: center;
+  text-wrap: wrap;
+  color: aliceblue;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.project-body {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 10vw;
+  height: 10vh;
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.project {
+  margin: 5px 40px;
 }
