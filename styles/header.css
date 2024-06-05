@@ -51,17 +51,20 @@ img {
   object-fit: cover;
   border: 2px solid #3f49295f;
 }
-.icons {
-  width: 80px;
-  border: none;
+.header-icons {
   display: flex;
   justify-content: end;
   align-self: end;
+}
+
+.header-icons {
+  width: 80px;
+  border: none;
   margin-top: 2em;
   gap: 10px;
   border-radius: 25px;
 }
 
-.icons:hover {
+.header-icons:hover {
   transform: scale(1.1);
 }

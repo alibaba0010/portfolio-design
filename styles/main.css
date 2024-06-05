@@ -12,6 +12,7 @@ body {
 .main-body {
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 .my-work{
   margin-left: 40px;
@@ -22,7 +23,7 @@ body {
 }
 .project-image {
   display: flex;
-  background-color: goldenrod;
+  background-color: #26355D;
   width: 10vw;
   height: 10vh;
   text-align: center;
