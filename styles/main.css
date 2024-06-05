@@ -19,7 +19,7 @@ body {
 }
 .main {
   display: flex;
-  flex-direction: row wrap;
+  flex-flow: row wrap;
 }
 .project-image {
   display: flex;
