@@ -19,13 +19,13 @@ body {
 }
 .main {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row wrap;
 }
 .project-image {
   display: flex;
   background-color: #26355D;
-  width: 10vw;
-  height: 10vh;
+  width: 200px;
+  height: 120px;
   text-align: center;
 }
 .project-image p {
@@ -41,8 +41,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  width: 10vw;
-  height: 10vh;
+  width: 200px;
+  height: 120px;
   padding: 5px;
   border: 1px solid #ddd;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 

@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   color: antiquewhite;
-  padding: 20px 10px;
+  padding: 20px;
 }
 .footer-main {
   display: flex;
@@ -31,7 +31,6 @@ body {
   border-radius: 25px;
   padding-right: 10px;
 }
-.address img,
 .phone img,
 .email img {
   width: 30px;
@@ -41,7 +40,6 @@ body {
   padding-right: 10px;
 }
 .footer-icons,
-.address,
 .phone,
 .email {
   display: flex;
@@ -54,4 +52,14 @@ body {
   max-width: 100%;
   object-fit: cover;
   border: 2px solid #3f49295f;
+}
+#phone, #email{
+  padding-left: 10px;
+  padding-top: 36px;
+}
+.footer a{
+margin: 0px 3px;
+}
+.footer-icons:hover {
+  transform: scale(1.1);
 }
